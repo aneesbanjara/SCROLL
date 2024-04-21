@@ -36,8 +36,6 @@ body {
 
 .customShadow{
   box-shadow: 4px 4px 8px #F3ABA3 inset, -4px -4px 8px #00000011 inset ;
-  /* border-left: 4px solid #F3ABA3;
-  border-top: 4px solid #F3ABA3; */
 }
 
 .customAnimation{
@@ -55,17 +53,22 @@ body {
   }
   0% {
     transform: scale(0.875);
+    opacity: 0.4;
   }
   25% {
     transform: scale(0.75);
+    opacity: 0.6;
   }
   50% {
     transform: scale(1);
+    opacity: 1;
   }
   75% {
     transform: scale(0.875);
+    opacity: 0.6;
   }
   100% {
     transform: scale(0.75);
+    opacity: 0.4;
   }
 }
