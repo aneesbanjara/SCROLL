@@ -2,13 +2,13 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div className='flex flex-col gap-2 h-96 w-1/2 p-4 rounded-[30px] bg-[#EB837B66] customShadow customAnimation'>
-          <div className='h-1/3 w-full  rounded-3xl bg-[#EB837B88] customShadow'>
+    <div className='flex flex-col gap-2 h-80 w-1/2 p-4 rounded-[30px] bg-[#EB837B66] customShadow customAnimation'>
+          <div className='h-2/3 w-full  rounded-3xl bg-[#EB837B88] customShadow'>
 
           </div>
           <div className='h-2/3'>
             <div className='flex gap-2'>
-                <div className='h-12 w-12 bg-[#EB837B66] rounded-full customShadow'>
+                <div className='h-12 w-14 bg-[#EB837B66] rounded-full customShadow'>
 
                 </div>
                 <div className='flex flex-col gap-2  w-full'>

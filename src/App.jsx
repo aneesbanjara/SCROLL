@@ -9,6 +9,8 @@ function App() {
     <>
       <div className="flex flex-col justify-center items-center gap-0">
         <Card />
+        <Card />
+        <Card />
       </div>
     </>
   )
