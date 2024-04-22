@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center gap-0">
+      <div className="flex flex-col justify-center items-center">
         <Card />
         <Card />
         <Card />
