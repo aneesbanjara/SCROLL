@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+  .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+}
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -10,7 +20,6 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  background-image: linear-gradient(to bottom right, #F9C976,#DB2B7B, #733BBB);
   background-attachment: fixed;
 
   font-synthesis: none;
@@ -20,7 +29,8 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 20.5%;
+  background-image: linear-gradient(123deg, #F9C976 3%,#d72978,#B02D92, #733BB7 );
   display: flex;
   place-items: center;
   min-width: 320px;
@@ -30,12 +40,20 @@ body {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: black;
+  }
+}
+@media only screen and (max-width: 1039px) {
+  body{
+    margin: 0;
   }
 }
 
 .customShadow{
-  box-shadow: 4px 4px 8px #F3ABA3 inset, -4px -4px 8px #00000011 inset ;
+  box-shadow: 8px 8px 12px #F3ABA388 inset, -12px -12px 8px #00000011 inset ;
+  border-top: 4px solid #F3ABA3AA;
+  border-left: 4px solid #F3ABA3AA;
+  
 }
 
 .customAnimation{

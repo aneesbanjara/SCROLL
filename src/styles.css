@@ -1,0 +1,18 @@
+.Wrapper {
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    overflow: scroll;
+    height: 100vh;
+  }
+  
+  .item {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    background: rosybrown;
+    margin: 0 10px;
+  }
+  
