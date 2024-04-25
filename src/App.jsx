@@ -2,12 +2,10 @@ import { useRef, useState } from 'react'
 import './App.css'
 import Card from './components/Card'
 import  useDraggableScroll  from 'use-draggable-scroll';
-import "./styles.css";
 
 function App() {
   const ref = useRef(null);
   const { onMouseDown } = useDraggableScroll(ref, { direction: 'vertical' });
-
 // const [isMouseDown, setIsMouseDown] = useState(false)
 // const [startX, setStartX] = useState(0)
 // const [scrollLeft, setScrollLeft] = useState(0)
